@@ -1,10 +1,19 @@
-const path = require('path');
+const path = require("path");
 
 module.exports = {
-  entry: './src/script.js',
+  entry: "./src/script.js",
+  watch: true,
   output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
+    filename: "main.js",
+    path: path.resolve(__dirname, "dist"),
   },
-  mode:'development'
+  mode: "development",
+  module: {
+    rules: [
+      {
+        test: /\.css$/i,
+        use: ["style-loader", "css-loader"],
+      },
+    ],
+  },
 };
