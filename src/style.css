@@ -6,3 +6,11 @@ html{
     background-image: no-repeat;
     background-size: cover;
 }
+
+#weatherContainer{
+    background-color: rgba(174, 203, 212, 0.432);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
