@@ -2,4 +2,4 @@
 
 Weather app project-The Odin Project
 
-[Live Preview](https://bhupi1998.github.io/weatherApp)
+[Live Preview](https://bhupi1998.github.io/WeatherApp)
